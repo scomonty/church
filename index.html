@@ -13,13 +13,14 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/animsition.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
 ================================================== -->
-  <body>
+  <body class="animsition">
     <div class="navbar-wrapper">
       <div class="container">
-
         <nav class="navbar navbar-inverse navbar-static-top">
           <div class="container">
             <div class="navbar-header">
@@ -29,32 +30,32 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">First United Methodist Church</a>
+              <a class="navbar-brand animsition-link" href="#">First United Methodist Church</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="sonshineandrainbows.html">Sonshine and Rainbows</a></li>
+                <li class="active"><a class="animsition-link" href="index.html">Home</a></li>
+                <li><a class="animsition-link" href="sonshineandrainbows.html">Sonshine and Rainbows</a></li>
                <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About<span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="pastor.html">Our Pastor</a></li>
-                    <li><a href="#">What We Offer</a></li>
+                    <li><a class="animsition-link" href="pastor.html">Our Pastor</a></li>
+                    <li><a class="animsition-link" href="#">What We Offer</a></li>
                     <li class="divider"></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Announcements</a></li>
+                    <li><a class="animsition-link" href="#">Events</a></li>
+                    <li><a class="animsition-link" href="#">Announcements</a></li>
                   </ul>
-                <li><a href="#contact">Contact</a></li>
+                <li><a class="animsition-link" href="#contact">Contact</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Missions<span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Matt & Kori Podszus - Navigators</a></li>
+                    <li><a class="animsition-link" href="#">Matt & Kori Podszus - Navigators</a></li>
                     <li class="divider"></li>
-                    <li><a href="#">Nathan and Amy Schmidt - World Gospel</a></li>
+                    <li><a class="animsition-link" href="#">Nathan and Amy Schmidt - World Gospel</a></li>
                     <li class="divider"></li>
-                    <li><a href="#">Esselstroms - World Impact</a></li>
+                    <li><a class="animsition-link" href="#">Esselstroms - World Impact</a></li>
                     <li class="divider"></li>
-                    <li><a href="#">Youth for Christ</a></li>
+                    <li><a class="animsition-link" href="#">Youth for Christ</a></li>
                   </ul>
                 </li>
                 <img id="logo" src="image/0398-facebook2.png">
@@ -193,7 +194,9 @@
           <p>World Impact is a Christian missions organization dedicated to ministering God's love in the inner cities of America.  Rich is an ordained minister and graduate of Westmont College (CA)</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-lg-offset-4">
           <img class="img-circle" src="image/1398265810.jpg" alt="World Impact" width="140" height="140">
           <h2>Youth for Christ</h2>
           <p>First United Methodist church believes is bringing youth into a personal relationship with Jesus; therefore, we support Youth for Christ in several ways.</p>
@@ -213,5 +216,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/jquery.animsition.min.js"></script>
+    <script src="js/rotate.js"></script>
   </body>
 </html>
